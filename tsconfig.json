@@ -1,0 +1,51 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "declaration": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6",
+      "es7",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noStrictGenericChecks": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "pretty": false,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/json-d-ts"
+    ],
+    "types": [
+      "react",
+      "react-native",
+      "jest"
+    ]
+  },
+  "exclude": [
+    "**/*.test.*",
+    "android",
+    "build",
+    "docs",
+    "ios",
+    "lib",
+    "node_modules",
+    "test"
+  ],
+  "include": [
+    "src"
+  ]
+}
